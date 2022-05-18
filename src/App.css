@@ -10,6 +10,7 @@
 
 h1,
 h2,
+h3,
 p {
 	margin: 0;
 }
@@ -40,6 +41,7 @@ header {
 	font-family: "Roboto Slab", serif;
 	font-size: 18px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 .border {
 	border-bottom: 1px solid #353535;
@@ -91,4 +93,31 @@ button:active {
 	background: #dfdfde;
 	border: 1px solid #712b75;
 	color: #712b75;
+}
+/* LIST */
+article {
+	height: 84px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+	font-size: 22px;
+}
+.tick-box {
+	display: flex;
+}
+.tick {
+	color: #712b75;
+	border-radius: 5px;
+	font-size: 38px;
+}
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
+h3 {
+	letter-spacing: 3px;
+	font-size: 38px;
 }
