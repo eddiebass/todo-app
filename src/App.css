@@ -26,3 +26,43 @@
 		transform: rotate(360deg);
 	}
 }
+h1,
+h2,
+p {
+	margin: 0;
+}
+h1 {
+	font-family: "Roboto Slab", serif;
+	color: #712b75;
+}
+h2 {
+	font-weight: 300;
+}
+/* HEADER */
+header {
+	height: 190px;
+	background: #dfdfde;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	gap: 15px;
+}
+.head-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.month {
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+.border {
+	border-bottom: 1px solid #353535;
+}
+sup {
+	font-size: 28px;
+	font-weight: 500;
+}
