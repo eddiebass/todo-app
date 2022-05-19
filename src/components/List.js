@@ -1,5 +1,5 @@
 import React from "react";
-import { BsCheckSquareFill, BsCheckSquare } from "react-icons/bs";
+import { BsCheckSquareFill, BsCheckSquare, BsThreeDots } from "react-icons/bs";
 
 const List = () => {
 	return (
@@ -11,7 +11,7 @@ const List = () => {
 					</div>
 					<p>Going to the Park with Anne</p>
 				</section>
-				<h3>...</h3>
+				<BsThreeDots className="dots" />
 			</article>
 			<article className="border">
 				<section>
@@ -20,7 +20,7 @@ const List = () => {
 					</div>
 					<p>Renewing my broadband subscription</p>
 				</section>
-				<h3>...</h3>
+				<BsThreeDots className="dots" />
 			</article>
 		</div>
 	);

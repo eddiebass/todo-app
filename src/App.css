@@ -110,6 +110,23 @@ article {
 	color: #712b75;
 	border-radius: 5px;
 	font-size: 38px;
+	cursor: pointer;
+}
+.tick:hover,
+.tick:active {
+	color: #712b75;
+	font-size: 40px;
+	cursor: pointer;
+}
+.dots {
+	color: #4f4f4f;
+	font-size: 26px;
+	cursor: pointer;
+}
+.dots:hover,
+.dots:active {
+	color: #712b75;
+	font-size: 30px;
 }
 section {
 	display: flex;
@@ -117,7 +134,33 @@ section {
 	align-items: center;
 	gap: 25px;
 }
-h3 {
-	letter-spacing: 3px;
-	font-size: 38px;
+/* FOOTER */
+footer {
+	height: 145px;
+	background: #dfdfde;
+	display: flex;
+	padding: 0 50px;
+}
+.info {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 30px;
+}
+input {
+	height: 75px;
+	background: #fff;
+	border-radius: 40px;
+	border: 1px solid #353535;
+	font: inherit;
+	font-size: 22px;
+	padding-left: 30px;
+	flex-basis: 90%;
+}
+.add-btn {
+	font-size: 68px;
+	color: #712b75;
+	cursor: pointer;
+	background: #fff;
+	border-radius: 9px;
 }
