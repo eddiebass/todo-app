@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nav = () => {
+const Nav = (props) => {
 	return (
 		<nav className="border">
 			<ul>
@@ -8,7 +8,7 @@ const Nav = () => {
 				<li>Pending</li>
 				<li>Completed</li>
 			</ul>
-			<button>Clear All</button>
+			<button onClick={props.clearAll}>Clear All</button>
 		</nav>
 	);
 };

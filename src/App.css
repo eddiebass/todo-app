@@ -23,7 +23,7 @@ h2 {
 }
 /* HEADER */
 header {
-	height: 190px;
+	height: 23vh;
 	background: #dfdfde;
 	display: flex;
 	justify-content: center;
@@ -52,7 +52,7 @@ sup {
 }
 /* NAV */
 nav {
-	height: 105px;
+	height: 12vh;
 	background: #dfdfde;
 	display: flex;
 	justify-content: space-between;
@@ -136,7 +136,7 @@ section {
 }
 /* FOOTER */
 footer {
-	height: 145px;
+	height: 25vh;
 	background: #dfdfde;
 	display: flex;
 	padding: 0 50px;
@@ -152,10 +152,12 @@ input {
 	background: #fff;
 	border-radius: 40px;
 	border: 1px solid #353535;
-	font: inherit;
+	font-family: inherit;
+	font-weight: 300;
 	font-size: 22px;
 	padding-left: 30px;
 	flex-basis: 90%;
+	color: #3f3f3f;
 }
 .add-btn {
 	font-size: 68px;
@@ -163,4 +165,33 @@ input {
 	cursor: pointer;
 	background: #fff;
 	border-radius: 9px;
+}
+.overflow {
+	overflow-y: scroll;
+	height: 40vh;
+}
+
+.overflow::-webkit-scrollbar {
+	width: 1em;
+}
+.overflow::-webkit-scrollbar-track {
+	background-color: #dfdfde;
+	border-radius: 40px;
+	margin-block: 2px;
+}
+.overflow::-webkit-scrollbar-thumb {
+	background-color: #dfdfde;
+	border: 2px solid #712b75;
+	border-radius: 40px;
+}
+.overflow::-webkit-scrollbar-thumb:hover {
+	background-color: #712b75;
+	border: 2px solid #712b75;
+}
+
+.hero {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

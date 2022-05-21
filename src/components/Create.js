@@ -1,12 +1,16 @@
-import React from "react";
 import { BsPlusSquareFill, BsPlusSquare } from "react-icons/bs";
 
-const Create = () => {
+const Create = (props) => {
 	return (
 		<footer className="border">
 			<div className="info">
-				<input type="text" placeholder="Enter Your Task Here" />
-				<BsPlusSquareFill className="add-btn" />
+				<input
+					type="text"
+					placeholder="Enter Your Task Here"
+					value={props.tasks}
+					onChange={props.getTask}
+				/>
+				<BsPlusSquareFill className="add-btn" onClick={props.addTask} />
 			</div>
 		</footer>
 	);

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+const Header = (props) => {
 	const date = new Date();
 	const theDate = date.getDate();
 	const month = () => {
@@ -18,7 +18,7 @@ const Header = () => {
 					{`${day()}, ${theDate}`}
 					<sup>th</sup>
 				</h1>
-				<h2>0 Task</h2>
+				<h2>{`${props.count} Task`}</h2>
 			</div>
 			<p className="month">{month()}</p>
 		</header>

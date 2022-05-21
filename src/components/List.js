@@ -1,19 +1,10 @@
 import React from "react";
 import { BsCheckSquareFill, BsCheckSquare, BsThreeDots } from "react-icons/bs";
 
-const List = () => {
+const List = (props) => {
 	return (
 		<div>
-			<article className="border">
-				<section>
-					<div className="tick-box">
-						<BsCheckSquareFill className="tick" />
-					</div>
-					<p>Going to the Park with Anne</p>
-				</section>
-				<BsThreeDots className="dots" />
-			</article>
-			<article className="border">
+			{/* <article className="border">
 				<section>
 					<div className="tick-box">
 						<BsCheckSquareFill className="tick" />
@@ -21,7 +12,7 @@ const List = () => {
 					<p>Renewing my broadband subscription</p>
 				</section>
 				<BsThreeDots className="dots" />
-			</article>
+			</article> */}
 		</div>
 	);
 };
